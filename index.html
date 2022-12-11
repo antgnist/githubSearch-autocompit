@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="container">
+        <div class="search">
+          <input
+            autofocus
+            type="text"
+            id="search_repo"
+            class="search__input"
+            placeholder="Write here"
+          />
+          <div class="search_list"></div>
+        </div>
+        <div class="result">
+          <div class="result__elem">
+            <div class="result__info">
+              <div class="result__name">
+                <span class="result__key">Name:</span>
+                <span class="result__value">react</span>
+              </div>
+              <div class="result__owner">
+                <span class="result__key">Owner:</span>
+                <span class="result__value">facebook</span>
+              </div>
+              <div class="result__star">
+                <span class="result__key">Stars:</span>
+                <span class="result__value">145231</span>
+              </div>
+            </div>
+            <div class="result__buttons">
+              <button class="result__delete"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/scripts/index.js"></script>
+  </body>
+</html>
