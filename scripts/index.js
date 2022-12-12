@@ -15,7 +15,7 @@ const searchInput = document.querySelector('.search__input');
 const datalist = document.querySelector('.search_list');
 const resultList = document.querySelector('.result');
 
-const inputHandlerDebo = debounce(inputHandler, 3000);
+const inputHandlerDebo = debounce(inputHandler, 350);
 
 //----------------------------------
 
